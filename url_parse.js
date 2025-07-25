@@ -1,0 +1,13 @@
+const url = require('url');
+const sampleUrl ='https://srkrec.edu.in/';
+const parsedUrl =new URL(sampleUrl);
+console.log('URL Components:');
+console.log('Protocol:', parsedUrl.protocol);
+console.log('Host:', parsedUrl.host);
+console.log('Hostname:', parsedUrl.hostname);
+console.log('Port:', parsedUrl.port);
+console.log('Pathname:', parsedUrl.pathname);
+console.log('Search:', parsedUrl.search);
+console.log('Search Params:', parsedUrl.searchparams);
+console.log('query:', parsedUrl.query);
+console.log('hash:', parsedUrl.hash);
